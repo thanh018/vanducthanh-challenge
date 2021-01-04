@@ -1,0 +1,23 @@
+/*
+ *
+ * {{ properCase name }} reducer
+ *
+ */
+
+import { handleActions  } from 'redux-actions';
+
+import { actionName } from'./actions';
+
+
+export const initialState = { counter: 0 };
+
+const {{ camelCase name }}Reducer = handleActions({
+
+      [actionName]:state=> ({ ...state, counter:state.counter + 1 }),      
+
+   },
+
+   initialState
+);
+
+export default {{ camelCase name }}Reducer;        

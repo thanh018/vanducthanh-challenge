@@ -1,0 +1,268 @@
+{
+  "topBar.profileMenu.hello": "Hello",
+  "topBar.profileMenu.role": "Role",
+  "topBar.profileMenu.email": "Email",
+  "topBar.profileMenu.phone": "Phone",
+  "topBar.profileMenu.editProfile": "Edit Profile",
+  "topBar.profileMenu.logout": "Logout",
+  "topBar.issuesHistory": "Issues History",
+  "topBar.projectManagement": "Project Management",
+  "topBar.typeToSearch": "Search...",
+  "topBar.findPages": "Find pages...",
+  "topBar.actions": "Actions",
+  "topBar.status": "Status",
+
+  "menu": {
+    "storybook": "Storybook",
+    "project": "Project",
+    "ReadMe": "Read Me",
+    "Settings": "Settings",
+    "userManagement": "User Management",
+    "reportDefaultRisk": "Report - Default Risk",
+    "reportResidualRisk": "Report - Residual Risk",
+    "timeSeriesReport": "Time Series Report"
+  },
+
+  "common": {
+    "title.template": "Metanet",
+    "title.riskFree": "Risk-free interest rate curve currency",
+    "title.rateCurve": "Interest rate curve information",
+    "title.curveCurrency": "Curve Currency",
+    "table.noData": "There are no data",
+    "table.showingText": "Showing",
+    "table.itemText": "Item",
+    "table.column.no": "No.",
+
+    "button.add": "Add",
+    "button.close": "Close",
+    "button.create": "Create",
+    "button.confirm": "Confirm",
+    "button.delete": "Delete",
+    "button.login": "Login",
+    "button.save": "Save",
+    "button.register": "Register",
+    "button.search": "Search",
+    "button.cancel": "Cancel",
+    "button.export": "Export",
+    "button.leave": "Leave",
+
+    "form.validate": {
+      "minimum": "{field} must be bigger than 18",
+      "maximum": "{field} must be smaller than 50"
+    },
+    "form.isRequired": "You must enter {field}",
+    "form.isNotValid": "This input is not valid {field}",
+    "form.field.label": {
+      "name": "Name",
+      "age": "Age",
+      "address": "Address",
+      "city": "City",
+      "province": "Province",
+      "priority": "Priority",
+      "email": "Email",
+      "password": "Password",
+      "phoneNumber": "Phone Number",
+      "url": "url",
+      "userId": "User ID",
+      "username": "Username",
+      "statusUse": "Status",
+      "rememberMe": "Remember Me",
+      "forgotPassword": "Forgot password ?"
+    },
+
+    "chart": {
+      "title": "Chart",
+      "notFound": "No data found"
+    }
+  },
+
+  "notification": {
+    "success": "Success",
+    "error": "Error",
+    "created.success": "{name} created successfully",
+    "created.exist": "{name} name already exists",
+    "update.success": "{name} modified successfully",
+    "delete.success": "{name} deleted successfully",
+    "dropp.success": "{name} dropped successfully",
+    "changedPassword.success": "Changed password successfully",
+    "updatedPassword.success": "New password is updated successfully",
+    "resetPassword.success": "Password is reset successfully",
+    "confirmSave": "Are you sure to SAVE ?",
+    "confirmCancel": "Are you sure to Cancel ?",
+    "noDataSave": "No data is saved!",
+    "noDataSelected": "Please select data to delete!",
+    "confirmDelete": "Are you sure to DELETE ?",
+    "deleteSuccessful": "Delete successfully!",
+    "editSuccessful": "Edit successfully!",
+    "createSuccessful": "Create successfully!"
+  },
+
+  "login": {
+    "form.invalid.field": "Please input {field} data.",
+    "form.error.invalidCredential": "Invalid Username And Password",
+    "footer.copyright": "© 2020 Metanet. All rights reserved."
+  },
+
+  "error": {
+    "common.internal.server": "There is an error in logging in you into this application. Please try again later",
+    "auth.bad.credential": "The Username or Password is incorrect",
+    "api.networkError": "Server is timeout/down",
+    "api.genericBadRequestError": "The form contains some invalid fields. Please check your form over again."
+  },
+
+  "projectManagement": {
+    "label.name": "Project Name",
+    "label.key": "Key",
+    "label.lead": "Project Lead",
+    "label.jiraUrl": "Jira Url",
+    "label.status": "Status",
+    "label.action": "Actions",
+    "label.totalText": "Total projects",
+
+    "create.project": "New Project",
+    "edit.project": "Edit Project",
+    "access.project": "Access Project",
+
+    "title": "Project Management",
+    "search.placeholder": "Search for test suites",
+
+    "button.newProject": "New Project",
+    "button.newUser": "New User",
+    "button.assignUser": "Assign User",
+    "button.deactive": "Deactive",
+    "button.active": "Active",
+    "button.edit": "Edit"
+  },
+
+  "modal": {
+    "assignUser": {
+      "title": "Assign User",
+      "label.userName": "User Name",
+      "label.name": "Name",
+      "label.role": "Role",
+      "label.title": "Title"
+    },
+    "deactive": {
+      "title": "Deactive Project",
+      "content": "Are you sure to {status} {projectName} ?"
+    }
+  },
+  "testCaseManagement": {
+    "label.userStoryId": "User Story ID",
+    "label.testCaseId": "Test Case ID",
+    "label.priority": "Priority",
+    "label.type": "Type",
+    "label.automated": "Automated",
+    "label.title": "Title",
+    "label.suites": "Suites",
+    "label.totalText": "Total test cases",
+    "title": "Test Case Management"
+  },
+  "footer": {
+    "copyright": "Copyright © 2020 Metanet. All rights reserved.",
+    "privacy-policy": "Privacy Policy"
+  },
+  "dashboard": {
+    "welcome-page": {
+      "welcome-to": "Welcome to",
+      "project": {
+        "title": "METANET REACT BOILERPLATE",
+        "description": "We built this foundation to give you a hand to start your next React project in seconds with ease. Before getting started, please make sure you have walked through the instructions bellow."
+      },
+      "button": {
+        "start": "Getting Started"
+      }
+    }
+  },
+  
+  "demo": {
+    "title": "User Management Page",
+    "userList": "User List",
+    "modal": {
+      "title": "User Information",
+      "userID": "User ID",
+      "username": "Username",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "status": "User Status",
+      "passSetDate": "Password setting date",
+      "group": "Group",
+      "comparePassword": "The two passwords that you entered do not match!",
+      "validateUser": "Cannot contain special character",
+      "validatePassword": "Must be in 8-20 characters and must contain at least one letter, one number",
+      "leave": "Do you want to cancel {mode} this user ?",
+      "creating": "creating",
+      "editing": "editing"
+    }
+  },
+
+  "workingReportPage": {
+    "formData": {
+      "calendar": {
+        "label": "Base date"
+      },
+      "portfolio": {
+        "label": "Portfolio"
+      },
+      "excel": "Excel",
+      "search": "Search"
+    },
+    "notification": {
+      "save": {
+        "title": "Do you want to save?",
+        "okText": "OK",
+        "cancelText": "Cancel"
+      }
+    },
+    "defaultRisk": {
+      "title": "Default Risk",
+      "tableList": {
+        "bucket": "Bucket",
+        "creditRating": "Credit rating",
+        "jtdLong": "JTD(Long)",
+        "jtdShort": "JTD(Short)",
+        "hbr": "HBR",
+        "requiredCapital": "Required capital"
+      }
+    },
+    "residualRisk": {
+      "title": "Residual risk",
+      "tableList": {
+        "type": "Type of residual risk",
+        "asset": "Underlying asset",
+        "productType": "Product type",
+        "residual": "Residual risk"
+      }
+    },
+    "timeSeriesReport": {
+      "title": "Time series report",
+      "tableList": {
+        "date": "Date",
+        "sensitivityDetailGroup": {
+          "sensitivityDetail": "Sensitivity detail",
+          "girrRisk": "GIRR risk",
+          "csrRisk": "CSR risk",
+          "stockRisk": "Stock risk",
+          "commodityRisk": "Commodity risk",
+          "foreignExchangeRisk": "Foreign exchange risk"
+        },
+        "sensitivityRiskAmount": "Sensitivity risk amount",
+        "bankruptcyRiskAmount": "Bankruptcy risk amount",
+        "residualRiskAmount": "Residual risk amount"
+      },
+      "operations": {
+        "averageRisk": "Average risk",
+        "maximumRisk": "Maximum risk",
+        "minimumRisk": "Minimum risk",
+        "summary": "Summary"
+      }
+    }
+  }, 
+
+  "curveCurrency": {
+    "label.currencyCode": "Currency code",
+    "label.date": "Date",
+    "label.curveCode": "Interest rate curve code",
+    "value.all": "All"
+  }
+}

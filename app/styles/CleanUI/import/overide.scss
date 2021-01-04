@@ -1,0 +1,9 @@
+//overide antd
+.ant-layout-content {
+  max-width: 100vw;
+}
+
+.ant-layout.ant-layout-has-sider>.ant-layout,
+.ant-layout.ant-layout-has-sider>.ant-layout-content {
+  overflow-x: inherit !important;
+}

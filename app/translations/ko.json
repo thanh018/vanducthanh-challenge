@@ -1,0 +1,265 @@
+{
+  "topBar.profileMenu.hello": "안녕하세요!",
+  "topBar.profileMenu.role": "역할",
+  "topBar.profileMenu.email": "이메일",
+  "topBar.profileMenu.phone": "전화 번호",
+  "topBar.profileMenu.editProfile": "프로필 수정",
+  "topBar.profileMenu.logout": "로그 아웃",
+  "topBar.issuesHistory": "이슈 이력",
+  "topBar.projectManagement": "프로젝트 관리",
+  "topBar.typeToSearch": "검색...",
+  "topBar.findPages": "페이지 찾기...",
+  "topBar.actions": "행위",
+  "topBar.status": "상태",
+
+  "menu": {
+    "storybook": "Storybook",
+    "project": "프로젝트",
+    "ReadMe": "리드미",
+    "Settings": "설정",
+    "userManagement": "사용자 관리",
+    "reportDefaultRisk": "상품 리스크",
+    "reportResidualRisk": "잔여 리스크",
+    "timeSeriesReport": "시계열 보고서"
+  },
+
+  "common": {
+    "title.template": "Metanet",
+    "title.riskFree": "무위험 이자율 곡선 통화",
+    "title.rateCurve": "이자율 곡선 정보",
+    "title.curveCurrency": "Curve Currency",
+    "table.noData": "데이터가 없음",
+    "table.showingText": "Showing",
+    "table.itemText": "안건",
+    "table.column.no": "No.",
+
+    "button.save": "저장",
+    "button.delete": "삭제",
+    "button.register": "등기",
+    "button.confirm": "확인",
+    "button.close": "닫기",
+    "button.add": "더하기",
+    "button.cancel": "취소",
+    "button.export": "수출",
+    "button.login": "로그인",
+    "button.search": "검색",
+    "button.create": "신규",
+    "button.leave": "떠나다",
+
+    "form.validate": {
+      "minimum": "{field} must be bigger than 18",
+      "maximum": "{field} must be smaller than 50"
+    },
+    "form.isRequired": "You must enter {field}",
+    "form.isNotValid": "This input is not valid {field}",
+    "form.field.label": {
+      "name": "이름",
+      "age": "나이",
+      "address": "주소",
+      "city": "도시",
+      "province": "지방",
+      "priority": "우선 순위",
+      "email": "이메일",
+      "password": "비밀번호",
+      "phoneNumber": "전화 번호",
+      "url": "url",
+      "username": "사용자 이름",
+      "rememberMe": "로그인 기억",
+      "forgotPassword": "비밀번호를 잊으셨나요?"
+    },
+
+    "chart": {
+      "title": "Chart",
+      "notFound": "No data found"
+    }
+  },
+
+  "notification": {
+    "success": "성공",
+    "error": "오류",
+    "created.success": "{name} created successfully",
+    "created.exist": "{name} name already exists",
+    "update.success": "{name} modified successfully",
+    "delete.success": "{name} deleted successfully",
+    "dropp.success": "{name} dropped successfully",
+    "changedPassword.success": "Changed password successfully",
+    "updatedPassword.success": "New password is updated successfully",
+    "resetPassword.success": "Password is reset successfully",
+    "confirmSave": "Are you sure to SAVE ?",
+    "confirmCancel": "Are you sure to Cancel ?",
+    "noDataSave": "No data is saved!",
+    "noDataSelected": "Please select data to delete!",
+    "confirmDelete": "Are you sure to DELETE ?",
+    "deleteSuccessful": "Delete successfully!",
+    "editSuccessful": "Edit successfully!",
+    "createSuccessful": "Create successfully!"
+  },
+
+  "login": {
+    "form.invalid.field": "{field}이/가 잘못되었습니다.",
+    "form.error.invalidCredential": "사용자 이름 또는 비밀번호가 잘못되었습니다.",
+    "footer.copyright": "© 2020 Metanet. All rights reserved."
+  },
+
+  "error": {
+    "common.internal.server": "이 응용 프로그램에 로그인하는 동안 오류가 발생했습니다. 나중에 다시 시도하십시오.",
+    "auth.bad.credential": "사용자 이름 또는 비밀번호가 잘못되었습니다.",
+    "api.networkError": "서버 시간이 초과되었습니다.",
+    "api.genericBadRequestError": "양식에 일부 유효하지 않은 필드가 있습니다. 양식을 다시 확인하십시오."
+  },
+
+  "projectManagement": {
+    "label.name": "Project Name",
+    "label.key": "Key",
+    "label.lead": "Project Lead",
+    "label.jiraUrl": "Jira Url",
+    "label.status": "Status",
+    "label.action": "Actions",
+    "label.totalText": "Total projects",
+
+    "create.project": "New Project",
+    "edit.project": "Edit Project",
+    "access.project": "Access Project",
+
+    "title": "Project Management",
+    "search.placeholder": "Search for test suites",
+
+    "button.newProject": "New Project",
+    "button.newUser": "New User",
+    "button.assignUser": "Assign User",
+    "button.deactive": "Deactive",
+    "button.active": "Active",
+    "button.edit": "Edit"
+  },
+
+  "modal": {
+    "assignUser": {
+      "title": "Assign User",
+      "label.userName": "User Name",
+      "label.name": "Name",
+      "label.role": "Role",
+      "label.title": "Title"
+    },
+    "deactive": {
+      "title": "Deactive Project",
+      "content": "Are you sure to {status} {projectName} ?"
+    }
+  },
+  "testCaseManagement": {
+    "label.userStoryId": "User Story ID",
+    "label.testCaseId": "Test Case ID",
+    "label.priority": "Priority",
+    "label.type": "Type",
+    "label.automated": "Automated",
+    "label.title": "Title",
+    "label.suites": "Suites",
+    "label.totalText": "Total test cases",
+    "title": "Test Case Management"
+  },
+  "footer": {
+    "copyright": "Copyright © 2020 Metanet. All rights reserved.",
+    "privacy-policy": "Privacy Policy"
+  },
+  "dashboard": {
+    "welcome-page": {
+      "welcome-to": "환영합니다!",
+      "project": {
+        "title": "METANET REACT BOILERPLATE",
+        "description": "다음 React 프로젝트를 몇 초 만에 쉽게 시작할 수 있도록 도와드리기 위해 이 기반을 구축했다. 시작하기 전에 아래 지시사항을 모두 숙지했는지 확인하십시오."
+      },
+      "button": {
+        "start": "시작하기"
+      }
+    }
+  },
+  "demo": {
+    "title": "사용자 관리",
+    "userList": "사용자 목록",
+    "modal": {
+      "title": "사용자 정보",
+      "userID": "사용자 정보",
+      "username": "사용자 정보",
+      "password": "비밀번호",
+      "confirmPassword": "비밀번호 확인",
+      "status": "사용여부",
+      "passSetDate": "암호설정일",
+      "group": "그룹",
+      "comparePassword": "The two passwords that you entered do not match!",
+      "validateUser": "Cannot contain special character",
+      "validatePassword": "Must be in 8-20 characters and must contain at least one letter, one number",
+      "leave": "Do you want to cancel {mode} this user?",
+      "creating": "creating",
+      "editing": "editing"
+    }
+  },
+
+  "workingReportPage": {
+    "formData": {
+      "calendar": {
+        "label": "기준일"
+      },
+      "portfolio": {
+        "label": "포트폴리오"
+      },
+      "excel": "엑셀",
+      "search": "검색"
+    },
+    "notification": {
+      "save": {
+        "title": "엑셀을 다운받으시겠습니까?",
+        "okText": "예",
+        "cancelText": "아니오"
+      }
+    },
+    "defaultRisk": {
+      "title": "상품 리스크",
+      "tableList": {
+        "bucket": "버킷",
+        "creditRating": "신용등급",
+        "jtdLong": "JTD(Long)",
+        "jtdShort": "JTD(Short)",
+        "hbr": "HBR",
+        "requiredCapital": "요구자본"
+      }
+    },
+    "residualRisk": {
+      "title": " 잔여 리스크",
+      "tableList": {
+        "type": "잔여리스크 유형",
+        "asset": "기초자산/상품유형",
+        "productType": "기초자산/상품유형",
+        "residual": "잔여리스크"
+      }
+    },
+    "timeSeriesReport": {
+      "title": "시계열 보고서",
+      "tableList": {
+        "date": "날짜",
+        "sensitivityDetailGroup": {
+          "sensitivityDetail": "민감도 상세",
+          "girrRisk": "GIRR 위험액",
+          "csrRisk": "CSR 위험액",
+          "stockRisk": "주식 위험액",
+          "commodityRisk": "상품 위험액",
+          "foreignExchangeRisk": "외환 위험액"
+        },
+        "sensitivityRiskAmount": "민감도 위험 금액",
+        "bankruptcyRiskAmount": "부도 위험 금액",
+        "residualRiskAmount": "잔여 위험 금액"
+      },
+      "operations": {
+        "averageRisk": "평균 위험액",
+        "maximumRisk": "최대 위험액",
+        "minimumRisk": "최소 위험액",
+        "summary": "요약"
+      }
+    }
+  },
+
+  "curveCurrency": {
+    "label.currencyCode": "통화 코드",
+    "label.date": "일자",
+    "label.curveCode": "이자율 곡선 코드",
+    "value.all": "전체"
+  }
+}

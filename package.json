@@ -10,7 +10,8 @@
     "npm": ">=5",
     "node": ">=8.15.1"
   },
-  "author": "Metanet FE team",
+  "author": "Thanh",
+  "homepage": "https://thanh018.github.io/vanducthanh-challenge",
   "scripts": {
     "analyze:clean": "rimraf stats.json",
     "preanalyze": "npm run analyze:clean",
@@ -43,7 +44,7 @@
     "coveralls": "cat ./coverage/lcov.info | coveralls",
     "prettify": "prettier --write",
     "storybook": "cross-env NODE_PATH=./app start-storybook -p 9009 -c .storybook",
-    "predeploy": "npm run build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
   "browserslist": [
